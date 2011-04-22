@@ -14,7 +14,7 @@ class Server_info_acc
 {
 	var $id				= 'ServerInfo';
 	var $name			= 'Server Info';
-	var $version		= '2.0';
+	var $version		= '2.1';
 	var $description	= 'Displays all sorts of Server Info';
 	var $sections		= array();
 
