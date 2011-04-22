@@ -52,6 +52,7 @@ class Server_info_acc
 
 		$this->sections[$this->EE->lang->line('si:dates')] = $this->EE->load->view('dates', array(), TRUE);
 		$this->sections[$this->EE->lang->line('si:phpconfig')] = $this->EE->load->view('phpconfig', array(), TRUE);
+		$this->sections[$this->EE->lang->line('si:eeconfig')] = $this->EE->load->view('eeconfig', array(), TRUE);
 
 	}
 
